@@ -68,7 +68,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-3xl md:text-6xl lg:text-6xl font-black mb-8 leading-tight"
+              className="text-4xl md:text-6xl lg:text-7xl font-black mb-8 leading-tight"
             >
               Powering the{' '}
               <span className="text-primary">Future</span>
@@ -96,10 +96,6 @@ export const Hero = () => {
               <div className="flex items-center gap-2 bg-card px-4 py-2 rounded-full border shadow-subtle text-sm">
                 <MapPin className="w-4 h-4 text-primary" />
                 <span className="font-medium">Hyperlocal Zones</span>
-              </div>
-              <div className="flex items-center gap-2 bg-card px-4 py-2 rounded-full border shadow-subtle text-sm">
-                <Satellite className="w-4 h-4 text-primary" />
-                <span className="font-medium">Fibre · 5G · Satellite</span>
               </div>
               <div className="flex items-center gap-2 bg-card px-4 py-2 rounded-full border shadow-subtle text-sm">
                 <Wifi className="w-4 h-4 text-primary" />
