@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Wifi, Satellite, MapPin, Clock } from "lucide-react";
-import { DemoModal } from "./DemoModal";
+import { ComingSoonModal } from "./ComingSoonModal";
 import heroBg from "@/assets/hero-bg.jpg";
 import heroLogo from "@/assets/hero-logo.svg";
 import mockupImage from "@/assets/konnectik_mockup1.png";
