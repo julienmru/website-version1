@@ -126,7 +126,7 @@ export const Hero = () => {
               transition={{ duration: 0.4, delay: 1 }}
               className="mt-6"
             >
-              <DemoModal 
+              <ComingSoonModal 
                 buttonLabel="Buy Your Pass" 
                 buttonClassName="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary/10 transition-smooth group"
               />
