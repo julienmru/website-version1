@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import incubationImage from "@/assets/INCUBATION-KONNECTIK-EN.jpg.jpeg";
 import merryChristmasImage from "@/assets/Merry_Christmas.jpg";
 import youthDayImage from "@/assets/CMR_Youth_Day.jpeg";
-import { link } from "fs";
+
 
 const posts = [
   {
