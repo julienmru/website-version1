@@ -127,7 +127,7 @@ export const Hero = () => {
               className="mt-6"
             >
               <DemoModal 
-                buttonLabel="Test Prototype" 
+                buttonLabel="Buy Your Pass" 
                 buttonClassName="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary/10 transition-smooth group"
               />
             </motion.div>
