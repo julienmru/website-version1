@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Wifi, Satellite, MapPin, Clock } from "lucide-react";
-import { ComingSoonModal } from "./ComingSoonModal";
+import { Button } from "./ui/button";
+import { Play } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import heroLogo from "@/assets/hero-logo.svg";
 import mockupImage from "@/assets/konnectik_mockup1.png";
@@ -126,10 +127,17 @@ export const Hero = () => {
               transition={{ duration: 0.4, delay: 1 }}
               className="mt-6"
             >
-              <ComingSoonModal 
-                buttonLabel="Buy Your Pass" 
-                buttonClassName="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary/10 transition-smooth group"
-              />
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary/10 transition-smooth group"
+              >
+                <a href="https://app.konnectik-cm.site" target="_blank" rel="noopener noreferrer">
+                  <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-smooth" />
+                  Buy Your Pass
+                </a>
+              </Button>
             </motion.div>
           </motion.div>
         </div>

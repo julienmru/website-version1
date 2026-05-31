@@ -78,21 +78,6 @@ export const Footer = () => {
                   About Us
                 </a>
               </li>
-              <li>
-                <a href="#expansion-journey" className="text-muted-foreground hover:text-primary transition-smooth">
-                  Expansion Plan
-                </a>
-              </li>
-              <li>
-                <a href="#how-it-works" className="text-muted-foreground hover:text-primary transition-smooth">
-                  How It Works
-                </a>
-              </li>
-              <li>
-                <a href="#download" className="text-muted-foreground hover:text-primary transition-smooth">
-                  Download
-                </a>
-              </li>
             </ul>
           </div>
 
