@@ -133,7 +133,20 @@ export const Hero = () => {
                 variant="outline"
                 className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary/10 transition-smooth group"
               >
-                <a href="https://app.konnectik-cm.site" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://app.konnectik-cm.site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => {
+                    if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+                      (window as any).gtag("event", "buy_your_pass_click", {
+                        event_category: "engagement",
+                        event_label: "Hero - Buy Your Pass",
+                        destination: "https://app.konnectik-cm.site",
+                      });
+                    }
+                  }}
+                >
                   <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-smooth" />
                   Buy Your Pass
                 </a>
