@@ -71,9 +71,9 @@ export const Hero = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-4xl md:text-6xl lg:text-7xl font-black mb-8 leading-tight"
             >
-              Powering the{' '}
+              Testing the{' '}
               <span className="text-primary">Future</span>
-              <br /> of Connectivity
+              <br /> of Stand up
             </motion.h1>
 
             {/* Subtitle */}
