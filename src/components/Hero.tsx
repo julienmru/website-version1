@@ -83,7 +83,7 @@ export const Hero = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto font-light"
             >
-              We're building a bold network to connect underserved communities, 
+              We're testing with Jérôme a bold network to connect underserved communities, 
               drive economic growth, and bridge the digital divide.
             </motion.p>
 
